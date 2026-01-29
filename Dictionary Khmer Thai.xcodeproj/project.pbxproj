@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6731532A92062B00A43311 /* Athiti Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD6731522A92062B00A43311 /* Athiti Bold.ttf */; };
+		AD6731612A963A4200A43311 /* DictionaryData.csv in Resources */ = {isa = PBXBuildFile; fileRef = AD6731602A963A4200A43311 /* DictionaryData.csv */; };
+		AD70977C2A7F051600D1DCE6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD70977B2A7F051600D1DCE6 /* DetailViewController.swift */; };
+		ADA907A82A7A77AE009F3195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA907A72A7A77AE009F3195 /* AppDelegate.swift */; };
+		ADA907AA2A7A77AE009F3195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA907A92A7A77AE009F3195 /* SceneDelegate.swift */; };
+		ADA907AC2A7A77AE009F3195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA907AB2A7A77AE009F3195 /* ViewController.swift */; };
+		ADA907AF2A7A77AE009F3195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA907AD2A7A77AE009F3195 /* Main.storyboard */; };
+		ADA907B22A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA907B02A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodeld */; };
+		ADA907B42A7A77B2009F3195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA907B32A7A77B2009F3195 /* Assets.xcassets */; };
+		ADA907B72A7A77B2009F3195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA907B52A7A77B2009F3195 /* LaunchScreen.storyboard */; };
+		ADA907C42A7A80E4009F3195 /* HandleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA907C32A7A80E4009F3195 /* HandleService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD6731522A92062B00A43311 /* Athiti Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Athiti Bold.ttf"; sourceTree = "<group>"; };
+		AD6731602A963A4200A43311 /* DictionaryData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DictionaryData.csv; sourceTree = "<group>"; };
+		AD70977B2A7F051600D1DCE6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADA907A42A7A77AE009F3195 /* Dictionary Khmer Thai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictionary Khmer Thai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA907A72A7A77AE009F3195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA907A92A7A77AE009F3195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADA907AB2A7A77AE009F3195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA907AE2A7A77AE009F3195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA907B12A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dictionary_Khmer_Thai.xcdatamodel; sourceTree = "<group>"; };
+		ADA907B32A7A77B2009F3195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA907B62A7A77B2009F3195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA907B82A7A77B2009F3195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA907C32A7A80E4009F3195 /* HandleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA907A12A7A77AE009F3195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD6731512A92061100A43311 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				AD6731522A92062B00A43311 /* Athiti Bold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		ADA9079B2A7A77AE009F3195 = {
+			isa = PBXGroup;
+			children = (
+				ADA907A62A7A77AE009F3195 /* Dictionary Khmer Thai */,
+				ADA907A52A7A77AE009F3195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA907A52A7A77AE009F3195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA907A42A7A77AE009F3195 /* Dictionary Khmer Thai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA907A62A7A77AE009F3195 /* Dictionary Khmer Thai */ = {
+			isa = PBXGroup;
+			children = (
+				ADA907C02A7A77E4009F3195 /* Resources */,
+				ADA907BF2A7A77D2009F3195 /* Views */,
+				ADA907BE2A7A77C3009F3195 /* Severices */,
+				ADA907A72A7A77AE009F3195 /* AppDelegate.swift */,
+				ADA907A92A7A77AE009F3195 /* SceneDelegate.swift */,
+			);
+			path = "Dictionary Khmer Thai";
+			sourceTree = "<group>";
+		};
+		ADA907BE2A7A77C3009F3195 /* Severices */ = {
+			isa = PBXGroup;
+			children = (
+				ADA907C32A7A80E4009F3195 /* HandleService.swift */,
+			);
+			path = Severices;
+			sourceTree = "<group>";
+		};
+		ADA907BF2A7A77D2009F3195 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADA907AB2A7A77AE009F3195 /* ViewController.swift */,
+				ADA907AD2A7A77AE009F3195 /* Main.storyboard */,
+				ADA907B52A7A77B2009F3195 /* LaunchScreen.storyboard */,
+				AD70977B2A7F051600D1DCE6 /* DetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADA907C02A7A77E4009F3195 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD6731512A92061100A43311 /* font */,
+				AD6731602A963A4200A43311 /* DictionaryData.csv */,
+				ADA907B82A7A77B2009F3195 /* Info.plist */,
+				ADA907B32A7A77B2009F3195 /* Assets.xcassets */,
+				ADA907B02A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA907A32A7A77AE009F3195 /* Dictionary Khmer Thai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA907BB2A7A77B2009F3195 /* Build configuration list for PBXNativeTarget "Dictionary Khmer Thai" */;
+			buildPhases = (
+				ADA907A02A7A77AE009F3195 /* Sources */,
+				ADA907A12A7A77AE009F3195 /* Frameworks */,
+				ADA907A22A7A77AE009F3195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dictionary Khmer Thai";
+			productName = "Dictionary Khmer Thai";
+			productReference = ADA907A42A7A77AE009F3195 /* Dictionary Khmer Thai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA9079C2A7A77AE009F3195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ADA907A32A7A77AE009F3195 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ADA9079F2A7A77AE009F3195 /* Build configuration list for PBXProject "Dictionary Khmer Thai" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA9079B2A7A77AE009F3195;
+			productRefGroup = ADA907A52A7A77AE009F3195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA907A32A7A77AE009F3195 /* Dictionary Khmer Thai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA907A22A7A77AE009F3195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6731532A92062B00A43311 /* Athiti Bold.ttf in Resources */,
+				AD6731612A963A4200A43311 /* DictionaryData.csv in Resources */,
+				ADA907B72A7A77B2009F3195 /* LaunchScreen.storyboard in Resources */,
+				ADA907B42A7A77B2009F3195 /* Assets.xcassets in Resources */,
+				ADA907AF2A7A77AE009F3195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA907A02A7A77AE009F3195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA907AC2A7A77AE009F3195 /* ViewController.swift in Sources */,
+				ADA907A82A7A77AE009F3195 /* AppDelegate.swift in Sources */,
+				ADA907AA2A7A77AE009F3195 /* SceneDelegate.swift in Sources */,
+				AD70977C2A7F051600D1DCE6 /* DetailViewController.swift in Sources */,
+				ADA907C42A7A80E4009F3195 /* HandleService.swift in Sources */,
+				ADA907B22A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADA907AD2A7A77AE009F3195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA907AE2A7A77AE009F3195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA907B52A7A77B2009F3195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA907B62A7A77B2009F3195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA907B92A7A77B2009F3195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA907BA2A7A77B2009F3195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA907BC2A7A77B2009F3195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 63233J7C35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dictionary Khmer Thai/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dul.khmer-thai-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA907BD2A7A77B2009F3195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 63233J7C35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dictionary Khmer Thai/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dul.khmer-thai-dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA9079F2A7A77AE009F3195 /* Build configuration list for PBXProject "Dictionary Khmer Thai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA907B92A7A77B2009F3195 /* Debug */,
+				ADA907BA2A7A77B2009F3195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA907BB2A7A77B2009F3195 /* Build configuration list for PBXNativeTarget "Dictionary Khmer Thai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA907BC2A7A77B2009F3195 /* Debug */,
+				ADA907BD2A7A77B2009F3195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADA907B02A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADA907B12A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodel */,
+			);
+			currentVersion = ADA907B12A7A77AE009F3195 /* Dictionary_Khmer_Thai.xcdatamodel */;
+			path = Dictionary_Khmer_Thai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADA9079C2A7A77AE009F3195 /* Project object */;
+}
